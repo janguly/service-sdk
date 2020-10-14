@@ -1,0 +1,19 @@
+{
+    "name": "janguly/service-client",
+    "authors": [
+        {
+            "name": "qbhy",
+            "email": "96qbhy@gmail.com"
+        }
+    ],
+    "require": {
+        "hanson/foundation-sdk": "^4.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Janguly\\ServiceClient\\LaravelServiceProvider"
+            ]
+        }
+    }
+}
