@@ -9,6 +9,11 @@
     "require": {
         "hanson/foundation-sdk": "^4.0"
     },
+    "autoload": {
+        "psr-4": {
+            "Janguly\\ServiceClient\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
